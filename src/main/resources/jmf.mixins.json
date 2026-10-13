@@ -1,0 +1,33 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.mystic.jmf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "jmf.refmap.json",
+  "plugin": "com.mystic.jmf.JmfMixinPlugin",
+  "mixins": [
+  ],
+  "client": [
+    "mc.MinecraftMixin",
+    "jei.IngredientFilterMixin",
+    "jei.NavigationHistoryMixin",
+    "jei.RegisteredIngredientIndexMixin",
+    "jei.ItemStackBatchRendererCacheMixin",
+    "jei.AnvilRecipeMakerMixin",
+    "jei.GrindstoneRecipeMakerMixin",
+    "fixes.PluginManagerMixin",
+    "fixes.InternalRecipeManagerPluginMixin",
+    "fixes.RecipeManagerInternalMixin",
+    "fixes.RecipeTypeDataMixin",
+    "fixes.RegisteredIngredientsMixin",
+    "fixes.IngredientManagerMixin",
+    "fixes.IngredientFilterRemovalMixin",
+    "jet.JeiOptFeatureFlagsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
