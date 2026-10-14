@@ -4,6 +4,7 @@
   "package": "com.mystic.jmf.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "jmf.refmap.json",
+  "priority": 2000,
   "plugin": "com.mystic.jmf.JmfMixinPlugin",
   "mixins": [
   ],
